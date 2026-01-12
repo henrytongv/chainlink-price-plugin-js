@@ -2,7 +2,7 @@
 
 A plugin for [Hedera Agent Kit JS](https://github.com/hashgraph/hedera-agent-kit-js) that provides integration with Chainlink to get price feeds
 
-The plugin in this repository is a reduced and simplified (for educational purposes) of the original repository "Chainlink plugin" created by the LATAM Builders team during ETH Buenos Aires 2025
+The plugin in this repository is a reduced and simplified version (for educational purposes) of the original repository "Chainlink plugin" created by the LATAM Builders team during ETH Buenos Aires 2025
 
 If you like it give thanks and credits the original authors:
 
