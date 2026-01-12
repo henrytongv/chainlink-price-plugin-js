@@ -90,7 +90,7 @@ export async function getPriceFeedFromChainlink(coinId) {...}
 #### Example Prompt
 
 ```
-"What's the price of Bitcoin?"
+"What's the price of BTC?"
 ```
 
 ## Optional: Plugin distribution, only needed to publish the npm package

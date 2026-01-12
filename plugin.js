@@ -47,6 +47,7 @@ const getChainlinkPriceFeedTool = (_context) => ({
     }),
     outputParser: undefined,
     execute: async (client, context, params) => {
+        const { coinId } = params;
         const result = await getPriceFeedFromChainlink(coinId);
         return result;
     },

@@ -63,6 +63,7 @@ const PRICE_FEEDS = {
 // Use the Chainlink API to get one price Feed from a given coin
 export async function getPriceFeedFromChainlink(coinId) {
   try {
+    console.log(`...getPriceFeedFromChainlink invoked with coinId ${coinId}`);
     const provider = new ethers.JsonRpcProvider("https://testnet.hashio.io/api");
     const contractAddress = PRICE_FEEDS[coinId];
 
@@ -82,6 +83,8 @@ export async function getPriceFeedFromChainlink(coinId) {
     const formattedPrice = (price / Math.pow(10, Number(decimals))).toFixed(
       Number(decimals)
     );
+
+    console.log(`...returning information from Chainlink...`);
 
     // return price
     return {
