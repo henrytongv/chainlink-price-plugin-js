@@ -6,9 +6,10 @@ The plugin in this repository is a reduced and simplified version (for education
 
 If you like it give thanks and credits the original authors:
 
-- [Daniela Malqui](https://www.linkedin.com/in/danielamalqui)
-- [Matias Celiz, Developer](https://github.com/Celiz)
-- [Brian Paiba, Developer](https://github.com/BMPaiba)
+- [Daniela Malqui, Strategy & PM](https://www.linkedin.com/in/danielamalqui)
+- [Matias Celiz, Frontend Developer](https://github.com/Celiz)
+- [Brian Paiba, Backend Developer](https://github.com/BMPaiba)
+- Carla Alejo, UX-UI
 
 You can read more about them and the plugin (including an example on how to use it as part of a full stack project) as their [plugin presentation page](https://ethglobal.com/showcase/price-feed-plugin-kd27q)
 
