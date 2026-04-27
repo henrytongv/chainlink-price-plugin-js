@@ -59,4 +59,9 @@ export const ChainlinkPriceFeedPlugin = {
     description: 'A plugin for querying Chainlink Price Feed oracles on Hedera Testnet. Provides real-time cryptocurrency price data from decentralized oracle networks.',
     tools: (context) => { return [getChainlinkPriceFeedTool(context)]; }
 };
-export default ChainlinkPriceFeedPlugin;
+
+export const chainlinkPriceFeedPluginToolNames = {
+    GET_CHAINLINK_PRICE_FEED_TOOL: 'get_chainlink_price_feed_tool',
+};
+
+export default { ChainlinkPriceFeedPlugin, chainlinkPriceFeedPluginToolNames };
