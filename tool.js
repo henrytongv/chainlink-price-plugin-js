@@ -54,10 +54,10 @@ const PRICE_FEEDS = {
   "BTC" : "0x058fe79cb5775d4b167920ca6036b824805a9abd",
   "ETH" : "0xb9d461e0b962af219866adfa7dd19c52bb9871b9",
   "HBAR": "0x59bc155eb6c6c415fe43255af66ecf0523c92b4a",
-  "LINK": "0xeb93a53c648e3e89bc0fc327d36a37619b1cf0cd",
-  "USDC": "0x2946220288dbaec91a26c772f5a1bb7b191c1a73",
-  "USDT": "0x1c5275a77d74c89256801322e9a52a991c68e79b",
-  "DAI" : "0xb7546c6ebfc0b6b4fe68909734d7e2c1c5a3ffdf",
+  "LINK": "0xf111b70231e89d69ebc9f6c9208e9890383ef432",
+  "USDC": "0xb632a7e7e02d76c0ce99d9c62c7a2d1b5f92b6b5",
+  "USDT": "0x06823de8e77d708c4cb72cbf04495d67aff4bd37",
+  "DAI" : "0xda2abf7c90adc73cdf5ca8d720b87bd5f5863389",
 }
 
 // Use the Chainlink API to get one price Feed from a given coin

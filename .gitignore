@@ -137,3 +137,7 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+/.idea/.gitignore
+/.idea/chainlink-price-plugin-js.iml
+/.idea/modules.xml
+/.idea/vcs.xml
